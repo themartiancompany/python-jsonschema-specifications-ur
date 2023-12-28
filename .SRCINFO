@@ -1,6 +1,6 @@
 pkgbase = python-jsonschema-specifications
 	pkgdesc = The JSON Schema meta-schemas and vocabularies, exposed as a Registry
-	pkgver = 2023.11.2
+	pkgver = 2023.12.1
 	pkgrel = 1
 	url = https://github.com/python-jsonschema/jsonschema-specifications
 	arch = any
@@ -13,7 +13,7 @@ pkgbase = python-jsonschema-specifications
 	makedepends = python-hatch-vcs
 	depends = python
 	depends = python-referencing
-	source = python-jsonschema-specifications::git+https://github.com/python-jsonschema/jsonschema-specifications#commit=a2fec386cdb2ed38041ccbfff0fc3e8a566997a3
+	source = python-jsonschema-specifications::git+https://github.com/python-jsonschema/jsonschema-specifications#commit=544e0ff86850af1c6d9e533c4b58b76c59542a76
 	b2sums = SKIP
 
 pkgname = python-jsonschema-specifications

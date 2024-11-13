@@ -35,7 +35,7 @@ license=(
 )
 depends=(
   "${_py}>=${_pymajver}"
-  "${_py}>=${_pynextver}"
+  "${_py}<${_pynextver}"
   "${_py}-referencing"
 )
 makedepends=(

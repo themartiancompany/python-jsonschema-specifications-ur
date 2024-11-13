@@ -45,7 +45,9 @@ makedepends=(
   "${_py}-hatchling"
   "${_py}-hatch-vcs"
 )
-checkdepends=('python-pytest')
+checkdepends=(
+  'python-pytest'
+)
 _commit='544e0ff86850af1c6d9e533c4b58b76c59542a76'
 source=(
   "${pkgname}::git+${url}#commit=${_commit}"

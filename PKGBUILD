@@ -19,11 +19,11 @@ _pkg="${_Pkg}-specifications"
 pkgname="${_py}-${_pkg}"
 pkgver=2023.12.1
 pkgrel=2
-pkgdesc=(
+_pkgdesc=(
   'The JSON Schema meta-schemas'
   'and vocabularies, exposed as a Registry'
 )
-_pkgdesc="${_pkgdesc[*]}"
+pkgdesc="${_pkgdesc[*]}"
 arch=(
   'any'
 )

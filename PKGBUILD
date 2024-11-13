@@ -29,7 +29,7 @@ arch=(
 )
 _http="https://github.com"
 _ns="${_py}-${_Pkg}"
-url="${_http}/${_Pkg}/${_pkg}"
+url="${_http}/${_ns}/${_pkg}"
 license=(
   'MIT'
 )
@@ -47,8 +47,12 @@ makedepends=(
 )
 checkdepends=('python-pytest')
 _commit='544e0ff86850af1c6d9e533c4b58b76c59542a76'
-source=("$pkgname::git+$url#commit=$_commit")
-b2sums=('SKIP')
+source=(
+  "${pkgname}::git+${url}#commit=${_commit}"
+)
+b2sums=(
+  'SKIP'
+)
 
 pkgver() {
   cd "${pkgname}"
